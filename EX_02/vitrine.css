@@ -1,0 +1,100 @@
+@font-face {font-family:'Open Sans'; src:url("OpenSans-Regular.ttf") format("woff2");}
+@font-face {font-family:"nasalization-rg";src:url("nasalization-rg.ttf")}
+     
+nav { 
+background-color:#2e2f30 ;
+height: 30px;
+text-align: right;
+padding-right: 50px;
+margin: 0;
+line-height: 27px;}
+
+
+nav a {color: white; text-decoration: none;}
+
+nav a:link { margin:0 10px; font-size: 12px; }
+
+nav a:active {
+    color:#17c1ff;} 
+
+    nav a:hover{color:#17c1ff;}
+
+    
+    .page_active a {color: #17c1ff ; font-weight: bold;}
+    
+  
+header
+    {text-align: center;
+       
+    background-image:url(texture-header.jpg);
+    height:150px;
+}
+
+h1 
+{font-family:"nasalization-rg";
+font-size: 40px;
+color:#27d1ff;
+text-align: center;
+line-height: 70px;}
+
+h2 {text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 1px 5px black;
+    color: #2E2F2F;}
+
+.centrer {max-width: 810px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;}
+
+.image { text-align: center; 
+    margin: 10px;}
+
+
+table {margin: auto; width: 810px;  border-collapse: collapse;margin-left: 10px;margin-right: 2Opx;}
+thead {background-color:#27d1ff ;
+        color:white;}
+tbody {background-color: white;}
+
+.scroll {height: 480px;overflow-y: scroll;display: inline-block;padding-left: 200px ; }
+
+ form {font-family: "Open Sans";
+    border: 2px solid#e6e6e6;
+    margin:0 auto;
+    text-align: center;
+    width: 300px;
+    padding: 8px;
+    background-color: white;
+outline: none;}  
+
+.bouton:hover {background-color:  red;}
+
+
+input 
+{height: 30px; width: 250px;
+font-size: 12px;
+font-family: "Open Sans"; font-weight: bold;
+border-width: 2px;
+border-color: #e6e6e6; border-width:2px;  text-indent: 10px; }
+
+textarea {width: 250px; height: 100px; 
+    border-width: 2px; border-color: #e6e6e6; font-size: 12px;
+    font-family: "Open Sans"; font-weight: bold;}
+input:hover {border-color:#27d1ff;}
+textarea:hover{border-color:#27d1ff;}
+.bouton {display: block; width:100px;
+    margin: auto;border:none; }
+
+
+
+    input:target {background-color: #17c1ff;}
+
+body 
+
+    {font-size: 14px;
+    background-color:#f2f2f2 ;
+    font-family:'Open Sans';}
+  
+    footer {text-align: center}
+   
